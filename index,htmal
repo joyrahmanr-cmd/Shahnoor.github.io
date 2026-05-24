@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahnoor Rahman | Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0f1c;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #0d1326;
+}
+nav h2 {
+    color: #00aaff;
+}
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 48px;
+}
+.hero span {
+    color: #00aaff;
+}
+.btn {
+    background: #00aaff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* SECTION */
+section {
+    padding: 50px;
+}
+h2 {
+    color: #00aaff;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: #11182e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d1326;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Joy Rahman</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO / LANDING -->
+<div class="hero">
+    <h1>Hi, I'm <span>Joy Rahman</span></h1>
+    <p>Data Entry | Lead Generation | Web Research Expert</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>I help businesses with accurate data entry, lead generation, and research. I focus on quality, speed, and client satisfaction.</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>My Services</h2>
+    <div class="card-container">
+        <div class="card">Data Entry</div>
+        <div class="card">Lead Generation</div>
+        <div class="card">Web Research</div>
+        <div class="card">Excel Work</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Completed Projects</h2>
+    <div class="card-container">
+        <div class="card">1000 Leads Collection</div>
+        <div class="card">Excel Data Cleaning</div>
+    </div>
+
+    <h2>Ongoing Projects</h2>
+    <div class="card-container">
+        <div class="card">E-commerce Data Entry</div>
+    </div>
+
+    <h2>Upcoming Projects</h2>
+    <div class="card-container">
+        <div class="card">Market Research Project</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: your@email.com</p>
+    <p>WhatsApp: +880XXXXXXXXXX</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Joy Rahman | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
